@@ -103,7 +103,7 @@ function mostrarComoJogar() {
   fill(255);
   textAlign(CENTER, CENTER);
   textSize(24);
-  text("Use as setas ← → para mover.\nAperte ESPAÇO para dar dash!\nPegue os itens verdes e evite os vermelhos!", width / 2, height / 2 - 40);
+  text("Use as setas ← → para mover.\nAperte ESPAÇO para dar dash!\nPegue as maças para ganhar ponto e evite as bombas", width / 2, height / 2 - 40);
 
   desenharBotao(botaoVoltarComoJogar, "Voltar");
 }
@@ -198,7 +198,7 @@ function keyPressed() {
   if (key === ' ') {
     player.dash();
   }
-  if (keyCode === ESCAPE && estado === 'jogando') { // NOVO!
+  if (keyCode === ESCAPE && estado === 'jogando') {
     pausado = !pausado;
   }
 }
