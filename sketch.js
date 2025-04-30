@@ -235,7 +235,7 @@ function mousePressed() {
     } else if (dentroDoBotao(mouseX, mouseY, botaoComoJogar)) {
       estado = 'comoJogar';
     } else if (dentroDoBotao(mouseX, mouseY, botaoSair)) {
-      window.open('https://editor.p5js.org/NicolasPrachumCoelho/full/NlfiUgr49', '_blank');
+      window.open('https://pagina-principal-fawn.vercel.app/', '_blank');
     }
   } else if (estado === 'gameover') {
     if (dentroDoBotao(mouseX, mouseY, botaoTentar)) {
