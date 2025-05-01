@@ -27,7 +27,7 @@ function preload() {
   goodItemImg = loadImage('fruta.png');
   badItemImg = loadImage('bomba.png');
 
-  bgMusic = loadSound('beatdonicolau (mp3cut.net) (2).mp3');
+  bgMusic = loadSound('ambiente.mp3');
   collectSound = loadSound('game-start-317318.mp3');
   hitSound = loadSound('80s-gated-reverb-96326.mp3');
   defeatSound = loadSound('sons e derrota (mp3cut.net).mp3');
